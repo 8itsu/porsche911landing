@@ -1,0 +1,48 @@
+:root {
+    /* Размеры */
+    --containerMaxWidth: 1512px;
+    --sectionGapLarge: 96px;
+    --sectionGapMedium: 64px;
+    --sectionGapSmall: 48px;
+    --gridGapLarge: 96px;
+    --gridGapMedium: 24px;
+
+    /* Отступы */
+    --paddingLarge: 48px;
+    --paddingMedium: 28px;
+    --inputHeight: 69px;
+    --buttonHeight: 69px;
+
+    /* Цвета */
+    --colorText: black;
+    --colorTextLight: white;
+    --colorPrimary: black;
+    --colorPrimaryLight: white;
+    --colorOverlay: rgba(0, 0, 0, 0.65);
+    --colorBorder: #cccccc;
+    --colorGalleryDot: #ccc;
+    --colorGalleryDotActive: #333;
+
+    /* Радиус */
+    --borderRadius: 20px;
+    --borderRadiusButton: 64px;
+    --borderRadiusModalButton: 12px;
+
+    /* Шрифты */
+    --desktopTitleFontSize: 64px;
+    --desktopTitleFontWeight: 450;
+    --desktopDescriptionFontSize: 15px;
+    --desktopDescriptionFontWeight: 300;
+    --mobileTitleFontSize: 28px;
+    --mobileDescriptionFontSize: 12px;
+    --modalHeaderFontSize: 38px;
+    --modalHeaderFontWeight: 450;
+    --buttonFontSize: 15px;
+    --buttonFontWeight: 300;
+
+    /* Анимации */
+    --transitionFast: 250ms ease-in-out;
+    --transitionMedium: 0.8s ease;
+    --transitionMediumDelay: 0.8s ease 0.3s;
+    --transitionLong: 1s ease-in-out;
+}
