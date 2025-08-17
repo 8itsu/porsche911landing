@@ -179,7 +179,7 @@ body {
     border-radius: var(--borderRadius);
 
     transform: translate(-120%, 0px);
-    opopacity: 0;
+    opacity: 0;
 
     transition: var(--transitionMedium);
 }
@@ -219,7 +219,7 @@ body {
     position: relative;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gtid-template-rows: 1fr;
+    grid-template-rows: 1fr;
     align-content: end;
     grid-row-gap: var(--gridGapMedium);
 
@@ -712,11 +712,11 @@ body {
     font-weight: var(--modalHeaderFontWeight);
 }
 
-.modal__content-body {
+/*.modal__content-body {
 }
 
 .modal__content-footer {
-}
+}*/
 
 .modal__content-footer button {
     background-color: var(--colorPrimary);
