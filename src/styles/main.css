@@ -234,6 +234,7 @@ body {
     font-weight: var(--desktopTitleFontWeight);
     margin-bottom: var(--paddingLarge);
     color: var(--colorTextLight);
+    margin-top: auto;
     grid-column: 1 / 2;
     padding-left: var(--paddingLarge);
 }
@@ -624,7 +625,6 @@ body {
     .conception__title {
         padding-bottom: var(--gridGapMedium);
         padding-left: var(--gridGapMedium);
-        margin-bottom: 0px;
     }
 
     .conception__description {
