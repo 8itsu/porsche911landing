@@ -66,7 +66,7 @@ body {
     grid-column-gap: var(--gridGapMedium);
 }
 
-.design__text__title {
+.design__title {
     font-size: var(--desktopTitleFontSize);
     font-weight: var(--desktopTitleFontWeight);
     margin-bottom: var(--paddingLarge);
@@ -77,7 +77,7 @@ body {
     transition: var(--transitionMedium);
 }
 
-.design__text__description {
+.design__description {
     font-size: var(--desktopDescriptionFontSize);
     font-weight: var(--desktopDescriptionFontWeight);
 
@@ -516,11 +516,11 @@ body {
         grid-column-gap: 0;
     }
 
-    .design__text__title {
+    .design__title {
         margin-bottom: var(--gridGapMedium);
     }
 
-    .design__text__description {
+    .design__description {
         margin-bottom: var(--gridGapMedium);
     }
 
@@ -596,7 +596,7 @@ body {
         padding-right: var(--paddingMedium);
     }
 
-    .design__text__title,
+    .design__title,
     .dynamic__title,
     .comfort__text__title,
     .conception__title,
