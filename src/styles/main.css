@@ -116,14 +116,14 @@ body {
     transition: var(--transitionMedium);
 }
 
-.dynamic__info {
+.dynamic__content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: var(--gridGapLarge);
 }
 
-.dynamic__info__text {
+.dynamic__text {
     padding-left: var(--gridGapMedium);
     border-left: 1px solid var(--colorText);
     font-size: var(--desktopDescriptionFontSize);
@@ -184,7 +184,7 @@ body {
     transition: var(--transitionMedium);
 }
 
-.comfort__text__title {
+.comfort__title {
     font-size: var(--desktopTitleFontSize);
     font-weight: var(--desktopTitleFontWeight);
     margin-bottom: var(--paddingLarge);
@@ -195,7 +195,7 @@ body {
     transition: var(--transitionMedium);
 }
 
-.comfort__text__description {
+.comfort__description {
     font-size: var(--desktopDescriptionFontSize);
     font-weight: var(--desktopDescriptionFontWeight);
 
@@ -395,13 +395,13 @@ body {
     color: var(--colorText);
 }
 
-.contact__form__prompt {
+.contact__form-prompt {
     font-size: var(--mobileDescriptionFontSize);
     font-weight: var(--desktopDescriptionFontWeight);
     margin-top: var(--gridGapMedium);
 }
 
-.contact__form__submit-button {
+.contact__form-submit-button {
     border-radius: var(--borderRadius);
     width: 181px;
     height: var(--buttonHeight);
@@ -415,24 +415,24 @@ body {
     transition: var(--transitionFast);
 }
 
-.contact__form__submit-button:hover {
+.contact__form-submit-button:hover {
     color: var(--colorText);
     background-color: var(--colorPrimaryLight);
     border: 1px solid var(--colorText);
 }
 
-.contact__form__agreement {
+.contact__form-agreement {
     font-size: var(--mobileDescriptionFontSize);
     font-weight: var(--desktopDescriptionFontWeight);
     margin-top: var(--gridGapMedium);
 }
 
-.contact__form__agreement-agreement {
+.contact__form-agreement-agreement {
     text-decoration: none;
     color: var(--colorText);
 }
 
-.contact__form__agreement-agreement:hover {
+.contact__form-agreement-agreement:hover {
     color: blue;
     cursor: pointer;
 }
@@ -535,7 +535,7 @@ body {
         grid-row-gap: var(--gridGapMedium);
     }
 
-    .comfort__text__title {
+    .comfort__title {
         margin-bottom: var(--gridGapMedium);
     }
 
@@ -555,7 +555,7 @@ body {
 }
 
 @media (max-width: 973px) {
-    .dynamic__info {
+    .dynamic__content {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-row-gap: var(--gridGapMedium);
@@ -598,7 +598,7 @@ body {
 
     .design__title,
     .dynamic__title,
-    .comfort__text__title,
+    .comfort__title,
     .conception__title,
     .gallery__title,
     .contact__title {
@@ -707,18 +707,18 @@ body {
     gap: var(--gridGapMedium);
 }
 
-.modal__content-header {
+.modal__header {
     font-size: var(--modalHeaderFontSize);
     font-weight: var(--modalHeaderFontWeight);
 }
 
-/*.modal__content-body {
+/*.modal__body {
 }
 
-.modal__content-footer {
+.modal__footer {
 }*/
 
-.modal__content-footer button {
+.modal__footer button {
     background-color: var(--colorPrimary);
     color: var(--colorTextLight);
     padding: 12px 18px;
@@ -730,7 +730,7 @@ body {
     transition: all 0.3s ease-in;
 }
 
-.modal__content-footer button:hover {
+.modal__footer button:hover {
     background-color: var(--colorPrimaryLight);
     color: var(--colorText);
     border: 1px solid;
